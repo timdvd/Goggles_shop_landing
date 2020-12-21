@@ -1,0 +1,83 @@
+/* MAX WIDTHS OF SCREEN */
+
+/* styles for max width of 1024px */
+@media screen and (max-width: 1024px){
+
+}
+/* styles for max width of 960px */
+@media screen and (max-width: 992px){
+    .header-nav{
+        display: none;
+    }
+    .sidebar{
+		display: block;
+    }
+    .col-menu{
+        display: none;
+    }
+    .sidebarBtn{
+        display: block;
+    }
+    .upper-header-ul-block{
+        display: none;
+    }
+    .sale-slider .slick-prev{
+        left: 50px;
+        font-size: 40px;
+    }
+    .sale-slider .slick-next{
+        right: 50px;
+        font-size: 40px;
+    }
+}
+/* styles for max width of 767px */
+@media screen and (max-width: 768px){
+
+}
+/* styles for max width of 556px */
+@media screen and (max-width: 556px){
+    .sidebarBtn{
+        position: absolute;
+        top: 5px;
+        right: 120px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        background-color: transparent;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+}
+/* styles for max width of 480px */
+@media screen and (max-width: 480px){
+    .sidebarBtn{
+        position: absolute;
+        top: 5px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        background-color: transparent;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+}
+
+/* MIN WIDTHS OF SCREEN */
+
+/* styles for min width of 1024px */
+@media screen and (min-width: 1024px){
+
+}
+/* styles for min width of 960px */
+@media screen and (min-width: 960px){
+
+}
+/* styles for min width of 767px */
+@media screen and (min-width: 767px){
+
+}
+/* styles for min width of 556px */
+@media screen and (min-width: 556px){
+
+}
